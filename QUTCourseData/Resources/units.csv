@@ -1,0 +1,191 @@
+BSB305,1,12,NEXT Innovation Challenge,
+BVB101,2,12,Foundations of Biology,
+CAB201,3,12,Programming Principles,EGD126 or ENB246 or IFB104 or INB104 or ITD104 or MAB220 or MXB103 or MZB126
+CAB202,3,12,Microprocessors and Digital Systems,((IFB102 or INB102 or ITD102) and (IFB104 or ITD104)) or (EGD126 or ENB240 or MZB126)
+CAB203,1,12,Discrete Structures,EGD126 or IFB104 or ITD104 or MZB126
+CAB210,2,12,People Context and Technology,EGB100 or ENB100 or IFB103 or INB103 or INB182 or ITD103
+CAB220,2,12,Fundamentals of Data Science,(CAB201 or ITD121) and (MZB151 or 12cp)
+CAB230,1,12,Web Computing,EGD126 or IFB104 or ITD104 or MZB126
+CAB240,2,12,Information Security,
+CAB301,1,12,Algorithms and Complexity,(CAB201 or ITD121) and (CAB203 or IGB283 or MXB102)
+CAB302,1,12,Software Development,CAB201 or INB270 or ITD121
+CAB303,2,12,Networks,IFB102 or ITD102
+CAB310,1,12,Interaction and Experience Design,CAB210
+CAB320,1,12,Artificial Intelligence,(CAB201 or CAB202 or INB270 or ITD121) and (EGD126 or ENB246 or MXB103 or MZB126 or MZB151)
+CAB330,2,12,Data and Web Analytics,CAB220 or CAB230
+CAB340,2,12,Cryptography,CAB203 or MXB102
+CAB401,2,12,High Performance and Parallel Computing,CAB301 or IFN505
+CAB402,1,12,Programming Paradigms,(CAB201 or ITD121) and CAB203
+CAB403,2,12,Systems Programming,(CAB201 or MZB126) and CAB202
+CAB420,1,12,Machine Learning,(CAB201 and (ENB246 or MXB100 or MXB103 or MZB126 or MZB151)) or (IFN501 and MXN500)
+CAB430,1,12,Data and Information Integration,CAB201 or CAB220 or ITD121
+CAB431,1,12,Search Engine Technology,CAB201 or ITD121
+CAB432,2,12,Cloud Computing,CAB301 or CAB302 or INB370 or INB371
+CAB440,1,12,Network and Systems Administration,CAB303 or INB251
+CAB441,2,12,Network Security,(CAB240 or INB255) and (CAB440 or INB351)
+CRB040,2,12,Learning Science Through Teaching,
+CVB101,3,12,General Chemistry,
+EGB100,3,12,Engineering Sustainability and Professional Practice,
+EGB111,1,12,Foundation of Engineering Design,EGB100
+EGB113,1,12,Energy in Engineering Systems,
+EGB120,3,12,Foundations of Electrical Engineering,
+EGB121,3,12,Engineering Mechanics,EGB111 or EGB113 or EGD113 or PVB101
+EGB123,2,12,Civil Engineering Systems,
+EGB210,3,12,Fundamentals of Mechanical Design,(EGB111 or EGB113 or EGD113 or ENB150 or PVB101) and EGB314
+EGB211,3,12,Dynamics,(EGB113 or EGD113 or ENB130 or PCB136 or PCB150 or PVB101) and (EGD126 or MAB126 or MAB131 or MAB180 or MZB126 or PVB101)
+EGB213,2,12,Energy Systems Fundamentals,
+EGB214,1,12,Materials and Manufacturing,EGB121 or EGD121 or ENB110
+EGB220,1,12,Mechatronics Design 1,EGB111 or ENB150
+EGB240,1,12,Electronic Design,(EGB120 or EGD120 or ENB120) and CAB202
+EGB241,1,12,Electromagnetics and Machines,(EGB120 or EGD120 or ENB120) and (EGD126 or ENB246 or MAB127 or MZB126)
+EGB242,3,12,Signal Analysis,(EGB120 or EGD120 or ENB120) and (EGD126 or ENB246 or MAB127 or MZB126)
+EGB243,1,12,Aircraft Systems and Flight,(EGB113 or EGD113 or PVB101) and (EGD126 or MZB126)
+EGB261,1,12,Unit Operations,
+EGB262,1,12,Process Principles,
+EGB270,1,12,Civil Engineering Materials,
+EGB272,1,12,Traffic and Transport Engineering,EGD126 or MZB126
+EGB273,2,12,Principles of Construction,
+EGB274,1,12,Environmentally Sustainable Design,EGB111 or EVB201 or UXB220 or UXB230
+EGB275,3,12,Structural Mechanics,EGB121 or EGD121 or ENB110
+EGB313,2,12,Energy Optimised Buildings,
+EGB314,3,12,Strength of Materials,(EGB121 or EGD121 or ENB110) and (EGD126 or MZB126)
+EGB315,2,12,Materials Degradation,EGB214 or PVB101
+EGB316,1,12,Design of Machine Elements,(EGB210 or ENB215) and EGB314
+EGB319,1,12,BioDesign,EGB210 or EGB220 or ENB215 or ENB229
+EGB320,2,12,Mechatronics Design 2,EGB220
+EGB321,1,12,Dynamics of Machines,EGB211 or ENB211
+EGB322,2,12,Thermodynamics,EGB323 or ENB221
+EGB323,1,12,Fluid Mechanics,EGB113 or EGD113 or ENB130 or PVB101
+EGB324,2,12,Fundamentals in Numerical Modelling for Engineering,EGD126 or MZB126
+EGB336,1,12,Lean Manufacturing,
+EGB339,2,12,Introduction to Robotics,
+EGB340,1,12,Design and Practice,EGB240 or ENB245
+EGB341,2,12,Energy Supply and Delivery,EGB241
+EGB342,2,12,Telecommunications and Signal Processing,EGB242 or ENB242
+EGB345,2,12,Control and Dynamic Systems,EGB242 or (ENB120 and MAB126)
+EGB346,2,12,Unmanned Aircraft Systems,EGB243 and (EGD126 or MZB126)
+EGB348,2,12,Electronics,EGB242 or ENB242
+EGB349,1,12,Systems Engineering and Design Project,EGB210 or EGB220 or EGB240
+EGB361,1,12,Minerals and Minerals Processing,CVB101
+EGB362,1,12,Operations Management and Process Economics,EGB261 or EGB323 or EGB461
+EGB363,1,12,Safety and Environmental Management,
+EGB364,2,12,Process Modelling,(CVB221 or EGB261 or EGB461) and (CVB220 or EGB262)
+EGB371,1,12,Engineering Hydraulics,EGD126 or MZB126
+EGB373,2,12,Geotechnical Engineering,(EGB121 or EGD121 or ENB110) and EGB123 and (EGB270 or EGD270)
+EGB375,1,12,Design of Concrete Structures,(EGB121 or EGD121 or ENB110) and (EGB270 or EGD270 or ENB273)
+EGB376,2,12,Steel Design,(EGB270 or EGD270 or ENB273) and (EGB121 or EGD121 or ENB110) and (EGB275 or ENB270)
+EGB377,2,12,Water and Waste Water Engineering,EGB371
+EGB379,1,12,Advanced Transport Engineering,EGB272
+EGB381,2,12,Infrastructure Asset Management,EGB123
+EGB382,1,12,Construction Methodologies,EGB273
+EGB383,2,12,Environmental Resource Management,
+EGB384,2,12,Bidding Estimating and Cost Management,EGB273 or ENB275
+EGB386,1,12,Design of Masonry Structures,EGB275
+EGB387,2,12,Project Value and Innovations,EGB382
+EGB414,1,12,Advanced Materials,EGB214
+EGB415,1,12,Motor Racing Vehicle Design,EGB316
+EGB422,2,12,Energy Management,EGB323
+EGB423,1,12,Heating Ventilation and Air Conditioning,EGB323
+EGB424,1,12,Advanced Computational Fluid Dynamics,EGB323 or EGB324 or EGB371 or EGH423 or MXB324 or MXB326
+EGB432,1,12,Asset Management and Maintenance,EGB316 or EGB319 or ENB316 or ENB319
+EGB434,2,12,Tribology,EGB323
+EGB435,2,12,Advanced Manufacturing,EGB214
+EGB436,2,12,Industrial Automation,EGB214
+EGB439,1,12,Advanced Robotics,EGB339 or ENB339
+EGB473,1,12,Composite Structures,EGB476
+EGB475,2,12,Advanced Structural Analysis,EGB275
+EGB476,2,12,Advanced Steel Design,EGB376
+EGB479,1,12,Advanced Transport Engineering,EGB272
+EGB481,2,12,Infrastructure Asset Management,EGB123
+EGB482,1,12,Contracting and Construction Regulations,EGB273
+EGB485,1,12,Finite Element Analysis,EGB475
+EGB486,1,12,Bridge Engineering,EGB475 and EGB375 and EGB376
+EGB489,1,12,Advanced Transport Modelling,MZB126
+EGH400-1,3,12,Research Project 1,(EGH403 or EGH404) and 288cp
+EGH400-2,3,12,Research Project 2,EGH400-1
+EGH404,3,12,Research in Engineering Practice,192cp
+EGH408,3,24,Research Project,288cp
+EGH411,2,12,Industrial Chemistry,CVB101
+EGH413,2,12,Advanced Dynamics,EGB321
+EGH414,1,12,Stress Analysis,EGB314 or ENB212
+EGH418,2,12,Biomechanics,EGB211 or ENB211
+EGH419,1,12,Mechatronics Design 3,EGB320
+EGH420,2,12,Mechanical Systems Design,EGB316 or ENB316
+EGH421,1,12,Vibration and Control,EGB321 or ENB312
+EGH422,2,12,Advanced Thermodynamics,EGB322 or ENB222
+EGH423,2,12,Fluids Dynamics,EGB322 or ENB222
+EGH424,2,12,Biofluids,EGB323 or ENB221
+EGH435,2,12,Modelling and Simulation for Medical Engineers,EGH414
+EGH438,1,12,Biomaterials,EGB314
+EGH441,1,12,Power System Modelling,EGB341
+EGH442,1,12,RF Techniques and Applications,EGB342 or ENB342 or ENB346
+EGH443,1,12,Advanced Telecommunications,EGB342 or ENB243 or ENB346
+EGH444,2,12,Digital Signals and Image Processing,EGB342 or ENB342 or ENB346
+EGH445,2,12,Modern Control,EGB345 or ENB301 or ENB348
+EGH446,1,12,Autonomous Systems,EGB345 and (CAB301 or CAB302 or EGB320 or EGB340 or EGB349)
+EGH448,1,12,Power Electronics,EGB348 or ENB240
+EGH449,2,12,Advanced Electronics,(EGB348 or ENB240) and CAB202
+EGH450,2,12,Advanced Unmanned Aircraft Systems,EGB243 and EGB346
+EGH454,2,12,Power Systems Management with Renewable & Storage Resources,EGB341
+EGH455,2,12,Advanced Systems Design,CAB403
+EGH456,1,12,Embedded Systems,CAB403
+EGH462,2,12,Process Control,EGB321 or EGB364
+EGH463,1,12,Plant and Process Design,(EGB323 or ENB221) and (EGB322 or ENB222)
+EGH471,2,12,Advanced Water Engineering,EGB371 or ENB280 or ENB378
+EGH472,2,12,Advanced Highway and Pavement Engineering,EGB272 or ENB376
+EGH473,1,12,Advanced Geotechnical Engineering,EGB373 or ENB272 or ENB371
+EGH475,2,12,Advanced Concrete Structures,EGB375 or ENB276
+EGH479,2,12,Advances in Civil Engineering Practice,(EGB375 or ENB276) and (EGH472 or ENB372)
+ERB101,2,12,Earth Systems,
+ERB102,2,12,Evolving Earth,
+ERB204,2,12,Deforming Earth: Fundamentals of Structural Geology,ERB101 and (MXB105 or MZB125 or SEB113)
+EVB102,2,12,Ecosystems and the Environment,
+EVB203,1,12,Geospatial Information Science,ERB101 or EVB102
+IAB201,3,12,Modelling Techniques for Information Systems,(IFB103 or ITD103) and (IFB105 or IFB130)
+IAB202,3,12,Business of Information Technology,EGB100 or ENB100 or IFB101 or IFB103 or IGB181 or ITD101 or ITD103
+IAB203,1,12,Business Process Modelling,
+IAB204,1,12,Business Requirements Analysis,IAB201 or ITD122 or PUB102
+IAB205,2,12,Corporate Systems,
+IAB206,2,12,Modern Data Management,(IFB104 or ITD104) and (IFB105 or IFB130)
+IAB207,3,12,Rapid Web Application Development,(IFB103 or ITD103) and (IFB105 or IFB130)
+IAB230,1,12,Mobile and Ubiquitous Computing,IFB104 or INB104 or ITD104
+IAB250,1,12,Enterprise Systems Configuration,IFB103 or ITD103
+IAB260,1,12,Social Technologies,IFB103 or ITD103
+IAB301,2,12,Enterprise Architecture,
+IAB302,1,12,Information Systems Consulting,
+IAB303,1,12,Data Analytics for Business Insight,((IFB104 or ITD104) and (IFB105 or IFB130)) or AYB341
+IAB304,1,12,Project Management,
+IAB305,2,12,Information Systems Lifecycle Management,(IAB201 or PUB110) and (IFB103 or ITD103)
+IAB320,2,12,Business Process Improvement,IAB203
+IAB321,1,12,Business Process Technologies,IAB203
+IAB330,2,12,Mobile Application Development,CAB201 or IAB230 or ITD121
+IAB350,1,12,Enterprise Systems Configuration,
+IAB351,1,12,Business in the Cloud,IFB103 or ITD103
+IAB352,2,12,Enterprise Systems Management,IAB250 or IAB350
+IAB370,2,12,Digital Transformation,(IFB103 or ITD103) and IAB270
+IAB401,2,12,Enterprise Architecture,IAB305
+IAB402,1,12,Information Systems Consulting,IAB204
+IAB450,2,12,Enterprise Systems Management,
+IFB101,3,12,Impact of IT,
+IFB102,3,12,Introduction to Computer Systems,
+IFB103,3,12,IT Systems Design,
+IFB104,3,12,Building IT Systems,
+IFB105,3,12,Database Management,
+IFB130,3,12,Database Management,
+IFB295,3,12,IT Project Management,96cp
+IFB299,3,12,IT Project Design and Development,
+IFB398,3,12,Capstone Project (Phase 1),IFB295 or IFB299
+IFB399,3,12,Capstone Project (Phase 2),CAB398 or IAB398 or IFB398
+IGB180,1,12,Computer Games Studies,
+KKB191,1,12,Am I black enough? Indigenous Australian Representations,
+KKB193,2,12,Indigenous Knowledge: Research Ethics and Protocols,
+MXB103,3,12,Introductory Computational Mathematics,
+MXB105,2,12,Calculus of One and Two Variables,
+MXB106,3,12,Linear Algebra and Differential Equations,
+MXB107,3,12,Statistical Models for Data: Relationships and Effects,
+MXB161,3,12,Computational Explorations,48cp
+MZB125,3,12,Introductory Engineering Mathematics,
+MZB126,3,12,Engineering Computation,MXB161 or MZB125
+MZB151,2,12,Mathematical Tools for Computing,
+PVB102,2,12,Physics of the Very Small,
+SEB200,2,12,Communicating Science and Mathematics to Diverse Audiences,

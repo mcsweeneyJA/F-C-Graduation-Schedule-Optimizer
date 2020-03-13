@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FSharpModel\FSharpModel.fsproj" />
+    <ProjectReference Include="..\QUTCourseData\CourseData.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FParsec">
+      <HintPath>..\..\CAB402StudyPlanner\FParsecLibrary\FParsec.dll</HintPath>
+    </Reference>
+    <Reference Include="FParsecCS">
+      <HintPath>..\..\CAB402StudyPlanner\FParsecLibrary\FParsecCS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

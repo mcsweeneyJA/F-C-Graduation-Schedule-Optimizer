@@ -1,0 +1,13 @@
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\CSharpModel\bin\Debug\netstandard2.0\CSharpWizard.deps.json
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\CSharpModel\bin\Debug\netstandard2.0\CSharpWizard.dll
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\CSharpModel\bin\Debug\netstandard2.0\CSharpWizard.pdb
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\CSharpModel\bin\Debug\netstandard2.0\CourseData.dll
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\CSharpModel\bin\Debug\netstandard2.0\FSharpModel.dll
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\CSharpModel\bin\Debug\netstandard2.0\FSharpModel.pdb
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\CSharpModel\bin\Debug\netstandard2.0\CourseData.pdb
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\CSharpModel\obj\Debug\netstandard2.0\CSharpWizard.csprojAssemblyReference.cache
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\CSharpModel\obj\Debug\netstandard2.0\CSharpWizard.AssemblyInfoInputs.cache
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\CSharpModel\obj\Debug\netstandard2.0\CSharpWizard.AssemblyInfo.cs
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\CSharpModel\obj\Debug\netstandard2.0\CSharpWizard.csproj.CopyComplete
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\CSharpModel\obj\Debug\netstandard2.0\CSharpWizard.dll
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\CSharpModel\obj\Debug\netstandard2.0\CSharpWizard.pdb

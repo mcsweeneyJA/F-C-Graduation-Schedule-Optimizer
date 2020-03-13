@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DynamicData.ReactiveUI" Version="6.11.0.2613" />
+    <PackageReference Include="ReactiveUI" Version="10.5.31" />
+    <PackageReference Include="ReactiveUI.Fody" Version="9.13.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CSharpModel\CSharpWizard.csproj" />
+    <ProjectReference Include="..\FSharpModel\FSharpModel.fsproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,71 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\WPFView\\WPFView.csproj",
+    "projectName": "WPFView",
+    "projectPath": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\WPFView\\WPFView.csproj",
+    "outputPath": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\WPFView\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Microsoft\\Xamarin\\NuGet",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\ViewModel\\ViewModel.csproj": {
+            "projectPath": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\ViewModel\\ViewModel.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "ReactiveUI": {
+          "target": "Package",
+          "version": "[10.5.43, )"
+        },
+        "ReactiveUI.WPF": {
+          "target": "Package",
+          "version": "[10.5.43, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        },
+        "Microsoft.WindowsDesktop.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.WindowsDesktop.App.WPF": {
+          "privateAssets": "none"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+    }
+  }
+}

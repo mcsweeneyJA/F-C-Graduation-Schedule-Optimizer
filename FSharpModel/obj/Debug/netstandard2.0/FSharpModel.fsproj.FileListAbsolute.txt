@@ -1,0 +1,13 @@
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\FSharpModel\bin\Debug\netstandard2.0\FSharpModel.deps.json
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\FSharpModel\bin\Debug\netstandard2.0\FSharpModel.dll
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\FSharpModel\bin\Debug\netstandard2.0\FSharpModel.pdb
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\FSharpModel\bin\Debug\netstandard2.0\CourseData.dll
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\FSharpModel\bin\Debug\netstandard2.0\FParsec.dll
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\FSharpModel\bin\Debug\netstandard2.0\FParsecCS.dll
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\FSharpModel\bin\Debug\netstandard2.0\CourseData.pdb
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\FSharpModel\obj\Debug\netstandard2.0\FSharpModel.fsprojAssemblyReference.cache
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\FSharpModel\obj\Debug\netstandard2.0\FSharpModel.AssemblyInfoInputs.cache
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\FSharpModel\obj\Debug\netstandard2.0\FSharpModel.AssemblyInfo.fs
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\FSharpModel\obj\Debug\netstandard2.0\FSharpModel.fsproj.CopyComplete
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\FSharpModel\obj\Debug\netstandard2.0\FSharpModel.dll
+C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\FSharpModel\obj\Debug\netstandard2.0\FSharpModel.pdb
