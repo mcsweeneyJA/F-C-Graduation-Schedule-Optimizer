@@ -11,3 +11,16 @@ C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkele
 C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\CSharpModel\obj\Debug\netstandard2.0\CSharpWizard.csproj.CopyComplete
 C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\CSharpModel\obj\Debug\netstandard2.0\CSharpWizard.dll
 C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\CSharpModel\obj\Debug\netstandard2.0\CSharpWizard.pdb
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\CSharpModel\bin\Debug\netstandard2.0\CSharpWizard.deps.json
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\CSharpModel\bin\Debug\netstandard2.0\CSharpWizard.dll
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\CSharpModel\bin\Debug\netstandard2.0\CSharpWizard.pdb
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\CSharpModel\bin\Debug\netstandard2.0\CourseData.dll
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\CSharpModel\bin\Debug\netstandard2.0\FSharpModel.dll
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\CSharpModel\bin\Debug\netstandard2.0\FSharpModel.pdb
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\CSharpModel\bin\Debug\netstandard2.0\CourseData.pdb
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\CSharpModel\obj\Debug\netstandard2.0\CSharpWizard.csprojAssemblyReference.cache
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\CSharpModel\obj\Debug\netstandard2.0\CSharpWizard.AssemblyInfoInputs.cache
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\CSharpModel\obj\Debug\netstandard2.0\CSharpWizard.AssemblyInfo.cs
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\CSharpModel\obj\Debug\netstandard2.0\CSharpWizard.csproj.CopyComplete
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\CSharpModel\obj\Debug\netstandard2.0\CSharpWizard.dll
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\CSharpModel\obj\Debug\netstandard2.0\CSharpWizard.pdb

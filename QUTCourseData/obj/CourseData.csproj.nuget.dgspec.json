@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\QUTCourseData\\CourseData.csproj": {}
+    "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\QUTCourseData\\CourseData.csproj": {
+    "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\QUTCourseData\\CourseData.csproj",
+        "projectUniqueName": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj",
         "projectName": "CourseData",
-        "projectPath": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\QUTCourseData\\CourseData.csproj",
-        "packagesPath": "C:\\Users\\61416\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\QUTCourseData\\obj\\",
+        "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj",
+        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\61416\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

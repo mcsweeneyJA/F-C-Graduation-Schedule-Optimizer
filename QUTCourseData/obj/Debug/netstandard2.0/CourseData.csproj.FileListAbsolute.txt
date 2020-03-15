@@ -8,3 +8,13 @@ C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkele
 C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\QUTCourseData\obj\Debug\netstandard2.0\CourseData.AssemblyInfo.cs
 C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\QUTCourseData\obj\Debug\netstandard2.0\CourseData.dll
 C:\Users\61416\Desktop\CAB402StudyPlannerSkeleton-shrunk\CAB402StudyPlannerSkeleton\QUTCourseData\obj\Debug\netstandard2.0\CourseData.pdb
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\QUTCourseData\bin\Debug\netstandard2.0\CourseData.deps.json
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\QUTCourseData\bin\Debug\netstandard2.0\CourseData.dll
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\QUTCourseData\bin\Debug\netstandard2.0\CourseData.pdb
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\QUTCourseData\obj\Debug\netstandard2.0\CourseData.csprojAssemblyReference.cache
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\QUTCourseData\obj\Debug\netstandard2.0\CourseData.Properties.Resources.resources
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\QUTCourseData\obj\Debug\netstandard2.0\CourseData.csproj.GenerateResource.cache
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\QUTCourseData\obj\Debug\netstandard2.0\CourseData.AssemblyInfoInputs.cache
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\QUTCourseData\obj\Debug\netstandard2.0\CourseData.AssemblyInfo.cs
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\QUTCourseData\obj\Debug\netstandard2.0\CourseData.dll
+C:\Users\Jack\RiderProjects\f-schedule-optimiser\QUTCourseData\obj\Debug\netstandard2.0\CourseData.pdb

@@ -1,13 +1,12 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\QUTCourseData\\CourseData.csproj",
+    "projectUniqueName": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj",
     "projectName": "CourseData",
-    "projectPath": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\QUTCourseData\\CourseData.csproj",
-    "outputPath": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\QUTCourseData\\obj\\",
+    "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj",
+    "outputPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "C:\\Microsoft\\Xamarin\\NuGet",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [

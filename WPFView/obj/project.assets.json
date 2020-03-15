@@ -2545,27 +2545,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\61416\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet": {},
+    "C:\\Users\\Jack\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\WPFView\\WPFView.csproj",
+      "projectUniqueName": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\WPFView\\WPFView.csproj",
       "projectName": "WPFView",
-      "projectPath": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\WPFView\\WPFView.csproj",
-      "packagesPath": "C:\\Users\\61416\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\WPFView\\obj\\",
+      "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\WPFView\\WPFView.csproj",
+      "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\WPFView\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\61416\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -2577,8 +2574,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\ViewModel\\ViewModel.csproj": {
-              "projectPath": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\ViewModel\\ViewModel.csproj"
+            "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\ViewModel\\ViewModel.csproj": {
+              "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\ViewModel\\ViewModel.csproj"
             }
           }
         }

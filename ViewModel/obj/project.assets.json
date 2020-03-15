@@ -2701,27 +2701,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\61416\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet": {},
+    "C:\\Users\\Jack\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\ViewModel\\ViewModel.csproj",
+      "projectUniqueName": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\ViewModel\\ViewModel.csproj",
       "projectName": "ViewModel",
-      "projectPath": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\ViewModel\\ViewModel.csproj",
-      "packagesPath": "C:\\Users\\61416\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\ViewModel\\obj\\",
+      "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\ViewModel\\ViewModel.csproj",
+      "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\ViewModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\61416\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -2733,11 +2730,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\CSharpModel\\CSharpWizard.csproj": {
-              "projectPath": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\CSharpModel\\CSharpWizard.csproj"
+            "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\CSharpModel\\CSharpWizard.csproj": {
+              "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\CSharpModel\\CSharpWizard.csproj"
             },
-            "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\FSharpModel\\FSharpModel.fsproj": {
-              "projectPath": "C:\\Users\\61416\\Desktop\\CAB402StudyPlannerSkeleton-shrunk\\CAB402StudyPlannerSkeleton\\FSharpModel\\FSharpModel.fsproj"
+            "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj": {
+              "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj"
             }
           }
         }

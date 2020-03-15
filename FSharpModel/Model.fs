@@ -4,6 +4,7 @@ open System
 open Parser
 open Parser
 open Parser
+open Parser
 open QUT
 
 // Functions dealing with unit lists ...
@@ -27,17 +28,27 @@ let lookup (code:UnitCode) : UnitInfo =
 // e.g previousSemester 2020/2 = 2020/1
 //     previousSemester 2020/1 = 2019/S
 //     previousSemester 2020/S = 2020/2
+
+type Offering = Semester1 | Semester2 | Summer
+
+type Semester = { year: int; offering: Offering }
 let previousSemester (semester:Semester) =
-    // TODO: Fixme (difficulty: 2/10)
-    { year = 1969; offering = Summer }
+    match semester.offering with
+        | Semester1 -> {semester with year = semester.year - 1; offering = Summer }
+        | Semester2 -> {semester with offering = Semester1 }
+        | Summer -> {semester with offering = Semester2 }
+
+
 
 // The semester after to the given semester
 // e.g nextSemester 2020/1 = 2020/2
 //     nextSemester 2020/2 = 2020/S
 //     nextSemester 2020/S = 2021/1
 let nextSemester (semester:Semester) =
-    // TODO: Fixme  (difficulty: 2/10)
-    { year = 1969; offering = Summer }
+    match semester.offering with
+        | Semester1 ->{semester with offering = Semester2}
+        | Semester2 ->{semester with offering = Summer}
+        | Summer ->{semester with year = semester.year + 1; offering = Semester2}
 
 // Returns a sequence of consecutive semesters starting from the first semester and ending at the last semester.
 // E.g. SemesterSequence 2019/2 2021/1 would return the sequence 2019/2, 2019/S, 2020/1, 2020/2, 2020/S, 2021/1.
@@ -63,8 +74,10 @@ let rec private satisfied (prereq:Prereq) (plannedUnits:StudyPlan) (before: Seme
 
  // True if and only if the unit with the specified unit code is offered in the specified semester
 let isOffered (unitCode:UnitCode) (semester:Semester) : bool = 
-    // TODO: Fixme (difficulty: 4/10)
-    false
+   let looked = lookup unitCode
+   looked.offered
+   |>Set.contains semester.offering
+    
 
 // True if and only if the specified unit can be studied in the specified semester based on the specified study plan.
 // Requires that the unit is offered in that semester and that prerequistes are meet by units studied before that semester 
@@ -95,8 +108,9 @@ let isLegalPlan (plan: StudyPlan): bool =
 
 // Returns all of the unit codes that are mentioned anywhere in the prerequisites of the specified unit
 let UnitPrereqs (unitCode:UnitCode) : seq<UnitCode> = 
-    // TODO: Fixme (difficulty: 6/10)
+      // TODO: Fixme (difficulty: 6/10)
     Seq.empty
+     
 
 // The title of the specified unit
 // e.g. getUnitTitle("CAB402") = "Programming Paradigms"
@@ -110,8 +124,8 @@ let getUnitTitle (unitCode:UnitCode) : string =
 let getPrereq (unitCode:UnitCode) : string = 
     Map.find unitCode unitList
     |> (fun unitinfo -> match unitinfo.prereq with
-                    | Nil -> "Prereqs: Nil"
-                    | _ -> "Prereqs: " + unitinfo.prereqString)
+                        | Nil -> "Prereqs: Nil"
+                        | _ -> "Prereqs: " + unitinfo.prereqString)
                     
 
 // The semesters that the specified unit is offered in as a string
