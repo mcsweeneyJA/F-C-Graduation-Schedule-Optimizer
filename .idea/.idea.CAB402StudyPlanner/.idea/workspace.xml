@@ -2,116 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b41600c-567c-48a0-b650-1f7e5d284353" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CAB402StudyPlanner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CAB402StudyPlanner/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CAB402StudyPlanner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CAB402StudyPlanner/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/CSharpWizard.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/CSharpWizard.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/CSharpWizard.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/CSharpWizard.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/CourseData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/CourseData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/CourseData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/CourseData.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/FSharpModel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/FSharpModel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpModel/obj/CSharpWizard.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/CSharpWizard.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpModel/obj/CSharpWizard.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/CSharpWizard.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpModel/obj/CSharpWizard.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/CSharpWizard.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpModel/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpModel/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/Model.fs" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/Model.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/CourseData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/CourseData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/CourseData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/CourseData.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSharpModel/obj/FSharpModel.fsproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/FSharpModel.fsproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSharpModel/obj/FSharpModel.fsproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/FSharpModel.fsproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSharpModel/obj/FSharpModel.fsproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/FSharpModel.fsproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSharpModel/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSharpModel/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/CSharpWizard.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/CSharpWizard.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/CSharpWizard.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/CSharpWizard.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/CourseData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/CourseData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/CourseData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/CourseData.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FSharpModel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FSharpModel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ModelUnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ModelUnitTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ModelUnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ModelUnitTests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ModelUnitTests.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ModelUnitTests.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/ModelUnitTests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/ModelUnitTests.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/ModelUnitTests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/ModelUnitTests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/ModelUnitTests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/ModelUnitTests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUTCourseData/bin/Debug/netstandard2.0/CourseData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/bin/Debug/netstandard2.0/CourseData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUTCourseData/bin/Debug/netstandard2.0/CourseData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/bin/Debug/netstandard2.0/CourseData.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/CourseData.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/CourseData.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/CourseData.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/CourseData.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/CourseData.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/CourseData.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/CSharpWizard.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/CSharpWizard.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/CSharpWizard.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/CSharpWizard.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/CourseData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/CourseData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/CourseData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/CourseData.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/FSharpModel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/FSharpModel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/ViewModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/ViewModel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/ViewModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/ViewModel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.csproj.Fody.CopyLocal.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.csproj.Fody.CopyLocal.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/obj/ViewModel.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/ViewModel.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/obj/ViewModel.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/ViewModel.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/obj/ViewModel.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/ViewModel.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/CSharpWizard.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/CSharpWizard.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/CSharpWizard.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/CSharpWizard.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/CourseData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/CourseData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/CourseData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/CourseData.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/FSharpModel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/FSharpModel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/ViewModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/ViewModel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/ViewModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/ViewModel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/WPFView.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/WPFView.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/WPFView.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/WPFView.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/WPFView.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/WPFView.runtimeconfig.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/GeneratedInternalTypeHelper.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/GeneratedInternalTypeHelper.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/MainWindow.baml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.g.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView_MarkupCompile.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView_MarkupCompile.lref" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/obj/WPFView.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/WPFView.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/obj/WPFView.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/WPFView.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/obj/WPFView.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/WPFView.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WizardProgress.baml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +36,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DB9CEB1E-F6C3-448D-8D4A-C9F8963779FB/b9/fa3a7bc9/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FSharpModel/Parser.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FSharpModel/FSharpSchedulingWizard.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FSharpModel/Types.fs" root0="FORCE_HIGHLIGHTING" />
@@ -183,7 +98,10 @@
       <workItem from="1583969227255" duration="267000" />
       <workItem from="1583969536915" duration="4936000" />
       <workItem from="1584082258625" duration="1839000" />
-      <workItem from="1584236148029" duration="16000000" />
+      <workItem from="1584236148029" duration="16773000" />
+      <workItem from="1584261511104" duration="2651000" />
+      <workItem from="1584583278242" duration="1195000" />
+      <workItem from="1584915831940" duration="33380000" />
     </task>
     <servers />
   </component>
@@ -206,6 +124,22 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584931545725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1584931545725" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584931545724">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1584931545724" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584931545724">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1584931545724" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584931545725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1584931545725" />
     <state x="254" y="124" key="SettingsEditor" timestamp="1584082921332">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

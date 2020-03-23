@@ -5,6 +5,8 @@ open Parser
 open Parser
 open Parser
 open Parser
+open Parser
+open Parser
 open QUT
 
 // Functions dealing with unit lists ...
@@ -29,9 +31,7 @@ let lookup (code:UnitCode) : UnitInfo =
 //     previousSemester 2020/1 = 2019/S
 //     previousSemester 2020/S = 2020/2
 
-type Offering = Semester1 | Semester2 | Summer
 
-type Semester = { year: int; offering: Offering }
 let previousSemester (semester:Semester) =
     match semester.offering with
         | Semester1 -> {semester with year = semester.year - 1; offering = Summer }
@@ -48,13 +48,14 @@ let nextSemester (semester:Semester) =
     match semester.offering with
         | Semester1 ->{semester with offering = Semester2}
         | Semester2 ->{semester with offering = Summer}
-        | Summer ->{semester with year = semester.year + 1; offering = Semester2}
+        | Summer ->{semester with year = semester.year + 1; offering = Semester1}
 
 // Returns a sequence of consecutive semesters starting from the first semester and ending at the last semester.
 // E.g. SemesterSequence 2019/2 2021/1 would return the sequence 2019/2, 2019/S, 2020/1, 2020/2, 2020/S, 2021/1.
 let rec SemesterSequence (firstSemester: Semester) (lastSemester: Semester): seq<Semester> =
-    // TODO: Fixme (difficulty: 4/10)
-    Seq.empty
+    seq { yield firstSemester
+          if not (firstSemester = lastSemester) then 
+            yield! SemesterSequence (nextSemester firstSemester) lastSemester  }
 
 
 
@@ -64,9 +65,19 @@ let rec SemesterSequence (firstSemester: Semester) (lastSemester: Semester): seq
 // True if and only if the prerequisites have been met based on units in the study 
 // plan taken in an earlier semester (based on the before function)
 let rec private satisfied (prereq:Prereq) (plannedUnits:StudyPlan) (before: Semester->bool) : bool = 
-    // TODO: Fixme (difficulty: 8/10)
-    false
 
+ 
+                                | 
+ 
+ 
+    match prereq with
+    | And (v) -> false
+    | Or (v) -> v |> Seq.exists 
+    | Unit (v) -> plannedUnits |> Seq.exists (fun x -> x.code = v)
+    | CreditPoints (v) -> false
+    | Nil -> true
+    
+    
 
 
 
@@ -107,9 +118,22 @@ let isLegalPlan (plan: StudyPlan): bool =
 // Functions returning various information about units ...
 
 // Returns all of the unit codes that are mentioned anywhere in the prerequisites of the specified unit
-let UnitPrereqs (unitCode:UnitCode) : seq<UnitCode> = 
-      // TODO: Fixme (difficulty: 6/10)
-    Seq.empty
+let UnitPrereqs (unitCode:UnitCode) : seq<UnitCode> =
+    let lookedUp = lookup unitCode
+
+    let rec foo (prereq: Prereq) : seq<UnitCode> =   
+        match prereq with
+        | Unit (name) ->  seq {yield name}
+        | And (seqPrereqs) ->  seq { for otherPrereq in seqPrereqs do
+                                        yield! foo otherPrereq}
+        | Or (seqPrereqs) ->  seq { for otherPrereq in seqPrereqs do
+                                        yield! foo otherPrereq}
+        | Nil -> Seq.empty
+        | CreditPoints (num) -> Seq.empty
+
+    foo lookedUp.prereq
+    
+         
      
 
 // The title of the specified unit
