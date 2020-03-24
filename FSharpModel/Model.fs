@@ -94,12 +94,15 @@ let isOffered (unitCode:UnitCode) (semester:Semester) : bool =
 let isLegalIn (unitCode:UnitCode) (semester:Semester) (plannedUnits:StudyPlan) : bool =
     
     let lookedUp = lookup unitCode
+    let inPlan code =
+        plannedUnits
+        |>Seq.exists (fun x -> x.code = code)
 
     let rec foo (prereq: Prereq) : bool =   
         match prereq with
-        | Unit (name) -> isOffered name semester && plannedUnits |> Seq.exists (fun x -> x.code = name)
-        | And (seqPrereqs) ->  isOffered unitCode semester
-        | Or (seqPrereqs) ->  isOffered unitCode semester
+        | Unit (name) -> isOffered name semester && inPlan name
+        | And (seqPrereqs) -> seqPrereqs |> Seq.forall (fun x -> x = lookedUp.prereq)
+        | Or (seqPrereqs) ->  seqPrereqs |> Seq.exists (fun x -> x = lookedUp.prereq)
         | Nil -> isOffered unitCode semester
         | CreditPoints (num) -> isOffered unitCode semester
 

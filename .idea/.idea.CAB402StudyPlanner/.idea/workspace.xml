@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FSharpModel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FSharpModel.pdb" afterDir="false" />
@@ -89,7 +88,7 @@
       <workItem from="1584261511104" duration="2651000" />
       <workItem from="1584583278242" duration="1195000" />
       <workItem from="1584915831940" duration="33380000" />
-      <workItem from="1584999539682" duration="4542000" />
+      <workItem from="1584999539682" duration="7054000" />
     </task>
     <servers />
   </component>
