@@ -5,27 +5,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CAB402StudyPlanner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CAB402StudyPlanner/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/FSharpModel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/FSharpModel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/Model.fs" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/Model.fs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FSharpModel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FSharpModel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/FSharpModel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/FSharpModel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/FSharpModel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/FSharpModel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/GeneratedInternalTypeHelper.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/GeneratedInternalTypeHelper.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/MainWindow.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView_MarkupCompile.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WizardProgress.baml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +89,7 @@
       <workItem from="1584261511104" duration="2651000" />
       <workItem from="1584583278242" duration="1195000" />
       <workItem from="1584915831940" duration="33380000" />
+      <workItem from="1584999539682" duration="4542000" />
     </task>
     <servers />
   </component>
