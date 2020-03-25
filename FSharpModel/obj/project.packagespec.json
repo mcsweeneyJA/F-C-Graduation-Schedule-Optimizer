@@ -1,12 +1,13 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj",
+    "projectUniqueName": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj",
     "projectName": "FSharpModel",
-    "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj",
-    "outputPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\obj\\",
+    "projectPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj",
+    "outputPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
+      "C:\\Microsoft\\Xamarin\\NuGet",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
@@ -19,8 +20,8 @@
     "frameworks": {
       "netstandard2.0": {
         "projectReferences": {
-          "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj": {
-            "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj"
+          "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj": {
+            "projectPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj"
           }
         }
       }

@@ -10,6 +10,10 @@ open Parser
 open Parser
 open Parser
 open Parser
+open Parser
+open Parser
+open Parser
+open Parser
 open QUT
 
 // Functions dealing with unit lists ...
@@ -68,14 +72,16 @@ let rec SemesterSequence (firstSemester: Semester) (lastSemester: Semester): seq
 // True if and only if the prerequisites have been met based on units in the study 
 // plan taken in an earlier semester (based on the before function)
 let rec private satisfied (prereq:Prereq) (plannedUnits:StudyPlan) (before: Semester->bool) : bool = 
-    false
-    //match prereq with
-   // | And (v) -> false
-    //| Or (v) -> v |> Seq.exists satisfied prereq plannedUnits 
-   // | Unit (v) -> plannedUnits |> Seq.exists (fun x -> x.code = v)
-  //  | CreditPoints (v) -> false
- //   | Nil -> true
     
+
+    
+    match prereq with
+        | And (seqPrereq) -> seqPrereq |> Seq.forall (fun prereq -> satisfied prereq plannedUnits before )
+        | Or (seqPrereq) -> seqPrereq |> Seq.exists (fun x -> satisfied x plannedUnits before )
+        | Unit (v) -> plannedUnits |> Seq.filter (fun x -> before x.semester ) |> Seq.exists (fun x->  x.code = v )
+        | CreditPoints (v) -> (plannedUnits |> Seq.filter (fun x -> before x.semester ) |> Seq.sumBy (fun x -> (lookup x.code).creditpoints))  >= v
+        | Nil -> true
+       
     
 
 
@@ -91,38 +97,25 @@ let isOffered (unitCode:UnitCode) (semester:Semester) : bool =
 
 // True if and only if the specified unit can be studied in the specified semester based on the specified study plan.
 // Requires that the unit is offered in that semester and that prerequistes are meet by units studied before that semester 
-let isLegalIn (unitCode:UnitCode) (semester:Semester) (plannedUnits:StudyPlan) : bool =
-    
+let isLegalIn (unitCode:UnitCode) (semester:Semester) (plannedUnits:StudyPlan) : bool =    
+    let before sem = 
+        sem < semester 
+       
     let lookedUp = lookup unitCode
-    let inPlan code =
-        plannedUnits
-        |>Seq.exists (fun x -> x.code = code)
-
-    let rec foo (prereq: Prereq) : bool =   
-        match prereq with
-        | Unit (name) -> isOffered name semester && inPlan name
-        | And (seqPrereqs) -> seqPrereqs |> Seq.forall (fun x -> x = lookedUp.prereq)
-        | Or (seqPrereqs) ->  seqPrereqs |> Seq.exists (fun x -> x = lookedUp.prereq)
-        | Nil -> isOffered unitCode semester
-        | CreditPoints (num) -> isOffered unitCode semester
-
-    foo lookedUp.prereq
-   
-   
-   
-   // let looked = lookup unitCode
-    //let lookedPre = looked.prereqString
-    //let offd = isOffered unitCode 
+    isOffered unitCode semester && satisfied lookedUp.prereq plannedUnits before 
     
-    //plannedUnits
-    //|> Seq.filter (fun x -> x.semester = semester)
-   //|> Seq.exists (fun x -> x.code = lookedPre ) 
 
 // True if and only if the specified unit can be added to the study plan in that semester.
 // Requires that the number of units currently studied in that semester is less than four and that it is legal in that semester
 let isEnrollableIn (unitCode:UnitCode) (semester:Semester) (plannedUnits:StudyPlan) : bool =
-    // TODO: Fixme (difficulty: 2/10)
-    false
+    let unitsEnrolled = 
+        plannedUnits
+        |> Seq.filter (fun x -> x.semester = semester)
+        |> Seq.length
+    
+    unitsEnrolled < 4 && isLegalIn unitCode semester plannedUnits
+    
+    
 
 // True if and only if the unit can be legally added to the study plan (in some semester) 
 let isEnrollable (unitCode:UnitCode) (plannedUnits:StudyPlan) : bool =

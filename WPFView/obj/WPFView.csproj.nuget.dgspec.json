@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\WPFView\\WPFView.csproj": {}
+    "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\WPFView\\WPFView.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\CSharpModel\\CSharpWizard.csproj": {
+    "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\CSharpModel\\CSharpWizard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\CSharpModel\\CSharpWizard.csproj",
+        "projectUniqueName": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\CSharpModel\\CSharpWizard.csproj",
         "projectName": "CSharpWizard",
-        "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\CSharpModel\\CSharpWizard.csproj",
-        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\CSharpModel\\obj\\",
+        "projectPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\CSharpModel\\CSharpWizard.csproj",
+        "packagesPath": "C:\\Users\\61416\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\CSharpModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\61416\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -30,11 +32,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj": {
-                "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj"
+              "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj": {
+                "projectPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj"
               },
-              "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj": {
-                "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj"
+              "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj": {
+                "projectPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj"
               }
             }
           }
@@ -69,21 +71,23 @@
         }
       }
     },
-    "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj": {
+    "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj",
+        "projectUniqueName": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj",
         "projectName": "FSharpModel",
-        "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj",
-        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\obj\\",
+        "projectPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj",
+        "packagesPath": "C:\\Users\\61416\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\61416\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -95,8 +99,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj": {
-                "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj"
+              "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj": {
+                "projectPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj"
               }
             }
           }
@@ -130,21 +134,23 @@
         }
       }
     },
-    "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj": {
+    "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj",
+        "projectUniqueName": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj",
         "projectName": "CourseData",
-        "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj",
-        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\obj\\",
+        "projectPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\CourseData.csproj",
+        "packagesPath": "C:\\Users\\61416\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\QUTCourseData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\61416\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -188,21 +194,23 @@
         }
       }
     },
-    "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\ViewModel\\ViewModel.csproj": {
+    "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\ViewModel\\ViewModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\ViewModel\\ViewModel.csproj",
+        "projectUniqueName": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\ViewModel\\ViewModel.csproj",
         "projectName": "ViewModel",
-        "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\ViewModel\\ViewModel.csproj",
-        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\ViewModel\\obj\\",
+        "projectPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\ViewModel\\ViewModel.csproj",
+        "packagesPath": "C:\\Users\\61416\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\ViewModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\61416\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -214,11 +222,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\CSharpModel\\CSharpWizard.csproj": {
-                "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\CSharpModel\\CSharpWizard.csproj"
+              "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\CSharpModel\\CSharpWizard.csproj": {
+                "projectPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\CSharpModel\\CSharpWizard.csproj"
               },
-              "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj": {
-                "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj"
+              "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj": {
+                "projectPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\FSharpModel\\FSharpModel.fsproj"
               }
             }
           }
@@ -265,21 +273,23 @@
         }
       }
     },
-    "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\WPFView\\WPFView.csproj": {
+    "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\WPFView\\WPFView.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\WPFView\\WPFView.csproj",
+        "projectUniqueName": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\WPFView\\WPFView.csproj",
         "projectName": "WPFView",
-        "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\WPFView\\WPFView.csproj",
-        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\WPFView\\obj\\",
+        "projectPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\WPFView\\WPFView.csproj",
+        "packagesPath": "C:\\Users\\61416\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\WPFView\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\61416\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -291,8 +301,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\ViewModel\\ViewModel.csproj": {
-                "projectPath": "C:\\Users\\Jack\\RiderProjects\\f-schedule-optimiser\\ViewModel\\ViewModel.csproj"
+              "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\ViewModel\\ViewModel.csproj": {
+                "projectPath": "C:\\Users\\61416\\RiderProjects\\f-schedule-optimiser\\ViewModel\\ViewModel.csproj"
               }
             }
           }
