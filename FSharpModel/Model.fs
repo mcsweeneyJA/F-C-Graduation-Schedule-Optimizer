@@ -14,6 +14,8 @@ open Parser
 open Parser
 open Parser
 open Parser
+open Parser
+open Parser
 open QUT
 
 // Functions dealing with unit lists ...
@@ -119,13 +121,22 @@ let isEnrollableIn (unitCode:UnitCode) (semester:Semester) (plannedUnits:StudyPl
 
 // True if and only if the unit can be legally added to the study plan (in some semester) 
 let isEnrollable (unitCode:UnitCode) (plannedUnits:StudyPlan) : bool =
-    // TODO: Fixme (difficulty: 4/10)
-    false
+    let looked = lookup unitCode
+    let before sem =
+        true
+    let unitsEnrolled = 
+        plannedUnits
+        |> Seq.exists (fun x -> satisfied looked.prereq plannedUnits before )
+        
+        
+    unitsEnrolled
+    
+    
 
 // True if and only if the all of the units in the study plan are legally scheduled
 let isLegalPlan (plan: StudyPlan): bool =
-    // TODO: Fixme (difficulty: 4/10)
-    false
+    plan
+    |> Seq.forall ( fun x -> isLegalIn x.code x.semester plan)
 
 
 
@@ -171,8 +182,9 @@ let getPrereq (unitCode:UnitCode) : string =
 // e.g. displayOffered("CAB201") = "semester 1 or 2"
 // e.g. displayOffered("CAB402") = "semester 1"
 let displayOffered (unitCode:UnitCode) : string =
-    // TODO: Fixme (difficulty: 5/10)
-    "???"
+    let looked = lookup unitCode
+    looked.offered
+    |> Set.
 
 // The specified semester as a string (format: year/semester)
 // e.g. display(currentSemester) = "2020/1"
