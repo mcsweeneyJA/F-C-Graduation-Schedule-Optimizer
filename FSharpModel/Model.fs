@@ -62,9 +62,13 @@ let nextSemester (semester:Semester) =
 // Returns a sequence of consecutive semesters starting from the first semester and ending at the last semester.
 // E.g. SemesterSequence 2019/2 2021/1 would return the sequence 2019/2, 2019/S, 2020/1, 2020/2, 2020/S, 2021/1.
 let rec SemesterSequence (firstSemester: Semester) (lastSemester: Semester): seq<Semester> =
-    seq { yield firstSemester
-          if not (firstSemester = lastSemester) then 
-            yield! SemesterSequence (nextSemester firstSemester) lastSemester  }
+    seq { 
+          
+          if lastSemester >= firstSemester  then
+            yield firstSemester
+            yield! SemesterSequence (nextSemester firstSemester) lastSemester }
+          
+    
 
 
 
@@ -124,12 +128,9 @@ let isEnrollable (unitCode:UnitCode) (plannedUnits:StudyPlan) : bool =
     let looked = lookup unitCode
     let before sem =
         true
-    let unitsEnrolled = 
-        plannedUnits
-        |> Seq.exists (fun x -> satisfied looked.prereq plannedUnits before )
-        
-        
-    unitsEnrolled
+
+    satisfied looked.prereq plannedUnits before
+    
     
     
 
@@ -155,7 +156,7 @@ let UnitPrereqs (unitCode:UnitCode) : seq<UnitCode> =
         | Or (seqPrereqs) ->  seq { for otherPrereq in seqPrereqs do
                                         yield! foo otherPrereq}
         | Nil -> Seq.empty
-        | CreditPoints (num) -> Seq.empty
+        | CreditPoints (num) ->  Seq.empty
 
     foo lookedUp.prereq
     
@@ -182,10 +183,25 @@ let getPrereq (unitCode:UnitCode) : string =
 // e.g. displayOffered("CAB201") = "semester 1 or 2"
 // e.g. displayOffered("CAB402") = "semester 1"
 let displayOffered (unitCode:UnitCode) : string =
-    let looked = lookup unitCode
+    let threadedY  y =
+        match y with
+            | "semester 1" -> "1"
+            | "semester 2" -> "2"
+            | "semester summer" -> "summer"
+                
+    let looked =
+        lookup unitCode
+        
     looked.offered
-    |> Set.
-
+    |> Set.map (fun x -> match x with
+                            | Semester1 -> "semester 1"
+                            | Semester2 -> "semester 2"
+                            | Summer -> "semester summer"
+                            )
+    |> Set.toSeq
+    |> Seq.reduce (fun x y ->   x + " or " + threadedY y)
+  
+  
 // The specified semester as a string (format: year/semester)
 // e.g. display(currentSemester) = "2020/1"
 let display (sem:Semester) : string = 

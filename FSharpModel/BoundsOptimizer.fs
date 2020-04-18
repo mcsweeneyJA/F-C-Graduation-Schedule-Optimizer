@@ -1,6 +1,15 @@
 ﻿module BoundsOptimizer
 
+open Parser
+open Parser
+open Parser
+open Parser
+open Parser
+open Parser
+open Parser
+open Parser
 open QUT
+open StudyPlannerModel
 
 // Challenge exercise for those students aiming for grade of 6 or 7 !!!!!!!!
 
@@ -13,30 +22,96 @@ open QUT
 // units in the plan. Let's assume we have a plan involving units X and Y that is legal. If we find that removing X from the plan make 
 // Y no longer enrollable (in any semester), then we can conclude that X must be taken before Y.
 let unitDependenciesWithinPlan (allUnits: StudyPlan) : seq<UnitCode*UnitCode> =
-    // TODO: Fixme (difficulty: 7/10)
-    Seq.empty
 
+
+    seq { for possibleUnit in allUnits do
+            let z = allUnits |> Seq.map (fun x -> (x, possibleUnit))
+            for a,b in z do
+            if not (isEnrollable a.code (allUnits |> Seq.filter ( fun y -> y <> b)) ) then yield b.code, a.code}
+   
+    
+  
 // Returns the first semester on or after the given semester in which the specified unit is offered
 let rec private firstOfferingOnOrAfter (unitCode: UnitCode) (semester: Semester) : Semester =
-    // TODO: Fixme (difficulty: 3/10)
-    { year = 1969; offering = Summer }
+    let queriedUnitSet =
+        lookup unitCode
+        |> (fun x -> x.offered)
+        
+    
+    
+    match semester.offering with
+        | Semester1  -> if ( queriedUnitSet |> Set.contains (Semester1)) then semester else firstOfferingOnOrAfter unitCode {semester with offering = Semester2} 
+        | Semester2  -> if ( queriedUnitSet |> Set.contains (Semester2)) then semester else firstOfferingOnOrAfter unitCode {semester with year = semester.year + 1; offering = Semester1} 
+        | Summer  -> firstOfferingOnOrAfter unitCode {semester with year = semester.year + 1; offering = Semester1}
+    
+ 
 
 // Returns the first semester on or before the given semester in which the specified unit is offered
 let rec private firstOfferingOnOrBefore (unitCode: UnitCode) (semester: Semester) : Semester =
-    // TODO: Fixme (difficulty: 3/10)
-    { year = 1969; offering = Summer }
+    let queriedUnitSet =
+        lookup unitCode
+        |> (fun x -> x.offered)
+        
+    
+    
+    match semester.offering with
+        | Semester1  -> if ( queriedUnitSet |> Set.contains (Semester1)) then semester else firstOfferingOnOrBefore unitCode {semester with year = semester.year - 1; offering = Semester2} 
+        | Semester2  -> if ( queriedUnitSet |> Set.contains (Semester2)) then semester else firstOfferingOnOrBefore unitCode {semester with  offering = Semester1} 
+        | Summer  -> firstOfferingOnOrAfter unitCode {semester with offering = Semester2}
+
+
+
+
+
+
+
+let addSem (semester:Semester) =
+    match semester.offering with
+        | Semester1 ->{semester with offering = Semester2}
+        | Semester2 ->{semester with year = semester.year + 1; offering = Semester1}
+        | Summer ->{semester with year = semester.year + 1; offering = Semester1}
+
+let backSem (semester:Semester) =
+    match semester.offering with
+        | Semester1 ->{semester with year = semester.year - 1; offering = Semester2}
+        | Semester2 ->{semester with offering = Semester1}
+        | Summer ->{semester with offering = Semester2}
 
 // Based on a set of dependencies between units, determine the earliest possible semester in which the given unit could be studied
 // assuming that all units involved in the dependencies must all be completed no earlier than the first semester.
 let rec private earliestSemester (dependencies: seq<UnitCode*UnitCode>) (unitCode: UnitCode) (firstSemester: Semester)  : Semester =
-    // TODO: Fixme (difficulty: 9/10)
-    { year = 1969; offering = Summer }
-
+    let foo =
+        dependencies
+        //find the units that need to be done before Y(unitCode)
+        |> Seq.filter (fun  x  ->  snd x = unitCode )
+        
+        
+        
+        
+    match foo with
+        | s when Seq.isEmpty s -> firstOfferingOnOrAfter unitCode firstSemester
+        | _ ->  foo |> Seq.map ( fun x -> earliestSemester dependencies (fst x) ( firstSemester))
+                    |> Seq.max
+                    |> (fun x -> firstOfferingOnOrAfter unitCode  (addSem x))
+                    
+  
+ 
 // Based on a set of dependencies between units, determine the latest possible semester in which the given unit could be studied
 // assuming that all units involved in the dependencies must all be completed no later than the last semester.
 let rec private latestSemester (dependencies: seq<UnitCode*UnitCode>) (unitCode: UnitCode) (lastSemester: Semester) : Semester =
-    // TODO: Fixme (difficulty: 9/10)
-    { year = 1969; offering = Summer }
+    let foo =
+        dependencies
+        //find the units that need to be done before Y(unitCode)
+        |> Seq.filter (fun  x  ->  fst x = unitCode )
+        
+        
+        
+        
+    match foo with
+        | s when Seq.isEmpty s -> firstOfferingOnOrBefore unitCode lastSemester
+        | _ ->  foo |> Seq.map ( fun x -> latestSemester dependencies (snd x) ( lastSemester))
+                    |> Seq.min
+                    |> (fun x ->  firstOfferingOnOrBefore unitCode (backSem x))
 
 // Create a bound plan by determining for each unit in the study plan the earliest and latest possible semester 
 // in which that unit could be taken. All units in the plan must be scheduled no earlier than the first semester
@@ -54,5 +129,6 @@ let boundUnitsInPlan (allUnits: StudyPlan) (firstSemester: Semester) (lastSemest
     // (difficulty: 7/10)
     // Naive implementation - only fix for challenge exercise for those students aiming for grade of 6 or 7
     allUnits 
-    |> Seq.map (fun unit -> { code =unit.code; studyArea = unit.studyArea; possibleSemesters = (StudyPlannerModel.SemesterSequence firstSemester lastSemester)}) 
+    |> Seq.map (fun unit -> { code =unit.code; studyArea = unit.studyArea
+                              possibleSemesters =  (SemesterSequence (earliestSemester (unitDependenciesWithinPlan allUnits) unit.code firstSemester)  (latestSemester (unitDependenciesWithinPlan allUnits) unit.code lastSemester) |> Seq.filter (fun sem -> isOffered unit.code sem ))}) 
     |> Seq.toList
