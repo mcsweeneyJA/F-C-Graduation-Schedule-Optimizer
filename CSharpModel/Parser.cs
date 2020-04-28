@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace QUT
@@ -126,28 +127,25 @@ namespace QUT
     {
         public Prereq And(Prereq a, Prereq b)
         {
-            // TODO: Fixme
-            return null;
+            return Prereq.NewAnd(new List<Prereq> { a, b });
         }
+        
+   
         public Prereq Or(Prereq a, Prereq b)
         {
-            // TODO: Fixme
-            return null;
+            return Prereq.NewOr(new List<Prereq> { a, b });
         }
         public Prereq CP(int count)
         {
-            // TODO: Fixme
-            return null;
+            return Prereq.NewCreditPoints(count);
         }
         public Prereq Unit(UnitCode code)
         {
-            // TODO: Fixme
-            return null;
+            return Prereq.NewUnit(code);
         }
         public Prereq Nil()
         {
-            // TODO: Fixme
-            return null;
+            return Prereq.Nil;
         }
 
         private Token next;

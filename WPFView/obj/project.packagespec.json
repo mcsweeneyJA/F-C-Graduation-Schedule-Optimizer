@@ -35,6 +35,10 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "FParsec": {
+          "target": "Package",
+          "version": "[1.1.1, )"
+        },
         "ReactiveUI": {
           "target": "Package",
           "version": "[10.5.43, )"

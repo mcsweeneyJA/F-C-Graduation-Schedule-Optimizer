@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FParsec" Version="1.1.1" />
     <PackageReference Include="ReactiveUI" Version="10.5.43" />
     <PackageReference Include="ReactiveUI.WPF" Version="10.5.43" />
   </ItemGroup>

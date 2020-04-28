@@ -114,6 +114,8 @@ C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.
 C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.1\WPFView.pdb
 C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.1\DynamicData.dll
 C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.1\DynamicData.ReactiveUI.dll
+C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.1\FParsec.dll
+C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.1\FParsecCS.dll
 C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.1\FSharp.Core.dll
 C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.1\ReactiveUI.dll
 C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.1\ReactiveUI.Fody.Helpers.dll
@@ -138,8 +140,6 @@ C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.
 C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.1\FSharpModel.dll
 C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.1\System.Reactive.dll
 C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.1\ViewModel.dll
-C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.1\FParsecCS.dll
-C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.1\FParsec.dll
 C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.1\ViewModel.pdb
 C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.1\CourseData.pdb
 C:\Users\61416\RiderProjects\f-schedule-optimiser\WPFView\bin\Debug\netcoreapp3.1\CSharpWizard.pdb

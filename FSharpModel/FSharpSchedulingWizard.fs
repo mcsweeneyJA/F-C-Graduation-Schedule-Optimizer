@@ -22,84 +22,70 @@ let currentSemester : Semester =
 // Otherwise we try scheduling that unit in each of the possible semesters in which it can be legally scheduled. 
 // If any of those schedules can be extended into a complete plan then we succeed, otherwise we fail.
 let rec private scheduleRemaining (remainingUnits:BoundPlan) (plannedUnits:StudyPlan): StudyPlan option =
-    
-    
-    if remainingUnits.IsEmpty then Some plannedUnits
+    if remainingUnits.IsEmpty then
+        Some plannedUnits
     else
         remainingUnits
-        |> List.tryFind (fun pland -> pland.possibleSemesters |> Seq.exists (fun x -> isEnrollableIn pland.code x plannedUnits))
-        |> (fun rez -> match rez with
-                        | Some(pland) -> pland.possibleSemesters
-                                            |> Seq.filter (fun sem -> isEnrollableIn pland.code sem plannedUnits)
-                                            |> Seq.map ( fun sem ->
-                                                let additionalunit = {code = pland.code; studyArea = pland.studyArea; semester = sem}
-                                                let newPlan = seq{yield! plannedUnits; yield additionalunit}
-                                                let newBound =
-                                                    remainingUnits
-                                                    |> List.filter (fun x -> x.code <> pland.code)
-                                                 
-                                                scheduleRemaining newBound newPlan)
-                                                 
-                                                
-                                            |> (fun mapd ->
-                                                    mapd
-                                                    |> Seq.tryFind (fun x -> x.IsSome)) |>Option.flatten
-
-                        | None -> None)
+        |> List.tryFind (fun pland ->
+                                pland.possibleSemesters
+                                |> Seq.exists (fun possibleSem -> isEnrollableIn pland.code possibleSem plannedUnits))
         
-        
-                
-                (*check if boundplan is empty
-                if not lets try find a unit that it exists some sem for the unit to enrollin
-                match the found option with two conditions
-                if nothing is found, we return none
-                else if we found some plannedunit, get seq of sem where we can enrollin the plannedunit,
-                then for each of these available sems, we create a unit with this sem,
-                then add this unit to the a newplan(since we cannot update original plan),
-                then remove unit from remainingunits,
-                then call the recursive function using the above new "variables",
-                because this will give us a sequence of options, we
-                then try to find if there is an option from this sequence,
-                and flatten the option because try to find will give you an option option type.*)
-                    
-
-     
-                                            
+        |> (fun planUnitOp -> match planUnitOp with
+                                | None -> Option.None
+                                | Some(enrollableUnit) ->
+                                                        enrollableUnit.possibleSemesters
+                                                        //reduce list of sems to those which enrollable in
+                                                        |> Seq.filter (fun sem -> isEnrollableIn enrollableUnit.code sem plannedUnits)
+                                                        //map those enrollable sems into new schedules
+                                                        |> Seq.map ( fun sem ->
+                                                            let additionalunit = {code = enrollableUnit.code; studyArea = enrollableUnit.studyArea; semester = sem};
+                                                            let newPlan = seq{ yield!plannedUnits; yield additionalunit; }
+                                                            let testBound = seq{ yield enrollableUnit}
+                                                            let newBound =
+                                                                //reduce boundplan by removing unit thats scheduled
+                                                                remainingUnits
+                                                                |> List.except testBound
+                                                                
+                                                            //try and extend schedule based on these new sequences
+                                                            scheduleRemaining newBound newPlan)
+                                                        |> (fun extendedPlans ->
+                                                                extendedPlans        
+                                                                |> Seq.tryFind (Option.isSome)
+                                                                |> Option.flatten))
+                                                              
+                                
+                                          
       
 
 // Assuming that study commences in the given first semester and that units are only studied 
 // in semester 1 or semester 2, returns the earliest possible semester by which all units in
 // the study plan could be completed, assuming at most 4 units per semester.
-let private bestAchievable (firstSemester:Semester) (plan:StudyPlan) : Semester =
-    let additionalSems  =
-        plan
-        |> Seq.length
-        |> (fun x -> x-1 )
-        |> (fun x -> ceil (float x /  4.0 ))
-        |> (fun x -> int x)
-        
-        
-    let additionalYears  =
-        additionalSems
-        |> (fun x -> ceil (float x / 2.0))
-        |> (fun x -> int x)
-        |> (fun x -> x - 1)
-    
-
-
-  
-
-    match firstSemester.offering with
-        | Semester1 -> {firstSemester with year = firstSemester.year + additionalYears; offering = if (additionalSems % 2 = 0) then Semester2 else Semester1}
-        | Semester2 ->{firstSemester with year = firstSemester.year + additionalYears; offering = if (additionalSems % 2 = 0) then Semester1 else Semester1}
-        | Summer ->{firstSemester with year = firstSemester.year + 1; offering = Semester1}
+let bestAchievable (firstSemester:Semester) (plan:StudyPlan) : Semester =
+     // TODO: Fixme (difficulty: 5/10)
+     //get num of units in a plan
+     let numofUnits  = plan |> Seq.length
+     //get num of semesters by dividing num of units by 4, and get ceiling number if its a decimal
+     let numofSem = int(ceil(float(numofUnits / 4)))
+     //remove summer from semester matching
+     let nextSemWithNoSummer (semester:Semester) =
+         // TODO: Fixme  (difficulty: 2/10)
+         match semester.offering  with
+         | Semester1 -> {year = semester.year; offering= Semester2}
+         | _ -> {year = (+) semester.year 1; offering = Semester1}
+     //helper function to recursively getting next Sem based on number of semesters
+     let rec determineSem num sem =
+          if num <= 1 then sem
+          else
+            determineSem (num-1) (nextSemWithNoSummer sem)
+     //call the helper function with number of semesters and current semester
+     determineSem numofSem firstSemester
 
 
 // Returns the last semester in which units will be studied in the study plan
 let lastSemester (plan: StudyPlan): Semester =
          
     plan
-    |> Seq.last
+    |> Seq.maxBy (fun p -> p.semester)
     |>(fun x -> x.semester)
     
 
@@ -121,17 +107,23 @@ let TryToImproveSchedule (plan:StudyPlan) : seq<StudyPlan> =
     let last = lastSemester plan
     let bestPossible = bestAchievable first plan
     let rec TryToCompleteBy (targetGraduation:Semester) =
-        if targetGraduation < first
-        then Seq.empty
+        if targetGraduation < (bestPossible)
+        then
+            Seq.empty
         else
         
             let tightBound = boundUnitsInPlan plan first targetGraduation
             let isFeasible = tightBound |> allBoundsFeasible
-            let scheduled = scheduleRemaining tightBound Seq.empty
-            if (bestPossible <= targetGraduation && isFeasible)
-             
-            then match scheduled with
-                    | Some (x) -> seq{yield x; yield! TryToCompleteBy(previousSemester (lastSemester x))}
-                    | None -> Seq.empty
-            else Seq.empty
+
+            if isFeasible
+            
+            then
+                let scheduled = scheduleRemaining tightBound Seq.empty
+                
+                
+                match scheduled with
+                        | Some (studyPlan) -> seq{yield studyPlan;  yield! TryToCompleteBy(previousSemester (lastSemester studyPlan)); }
+                        | None -> Seq.empty
+                else Seq.empty
+
     TryToCompleteBy (previousSemester last)

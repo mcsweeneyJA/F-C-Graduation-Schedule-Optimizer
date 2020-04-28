@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace QUT
 {
@@ -14,8 +15,13 @@ namespace QUT
 
         public static IEnumerable<StudyPlan> TryToImproveSchedule(StudyPlan plan)
         {
-            // TODO: Fixme
+            Semester firstSem = currentSemester;
+            var lastSem = plan.GetEnumerator();
+            
+            
+            
             yield break;
+            
         }
     }
 }

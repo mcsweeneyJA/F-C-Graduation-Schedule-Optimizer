@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="DynamicData.ReactiveUI" Version="6.11.0.2613" />
+    <PackageReference Include="FParsec" Version="1.1.1" />
     <PackageReference Include="ReactiveUI" Version="10.5.31" />
     <PackageReference Include="ReactiveUI.Fody" Version="9.13.1" />
   </ItemGroup>

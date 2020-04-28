@@ -33,6 +33,20 @@
           "build/Fody.targets": {}
         }
       },
+      "FParsec/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.3.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/FParsec.dll": {},
+          "lib/netstandard2.0/FParsecCS.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FParsec.dll": {},
+          "lib/netstandard2.0/FParsecCS.dll": {}
+        }
+      },
       "FSharp.Core/4.7.0": {
         "type": "package",
         "compile": {
@@ -544,6 +558,9 @@
       "CourseData/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FParsec": "1.1.1"
+        },
         "compile": {
           "bin/placeholder/CourseData.dll": {}
         },
@@ -556,6 +573,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "CourseData": "1.0.0",
+          "FParsec": "1.1.1",
           "FSharpModel": "1.0.0"
         },
         "compile": {
@@ -570,6 +588,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "CourseData": "1.0.0",
+          "FParsec": "1.1.1",
           "FSharp.Core": "4.7.0"
         },
         "compile": {
@@ -653,6 +672,29 @@
         "netstandardtask/Mono.Cecil.Rocks.pdb",
         "netstandardtask/Mono.Cecil.dll",
         "netstandardtask/Mono.Cecil.pdb"
+      ]
+    },
+    "FParsec/1.1.1": {
+      "sha512": "Wdjf/gCNLEwd+0nUCDh9jAIIcKGwfhRramySTnTcVVgNC6i4Vp5aJklUJJfvFkEZMYNZEDGcI8pCa36/TmwmSg==",
+      "type": "package",
+      "path": "fparsec/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fparsec.1.1.1.nupkg.sha512",
+        "fparsec.nuspec",
+        "lib/net45/FParsec.dll",
+        "lib/net45/FParsec.pdb",
+        "lib/net45/FParsec.xml",
+        "lib/net45/FParsecCS.dll",
+        "lib/net45/FParsecCS.pdb",
+        "lib/net45/FParsecCS.xml",
+        "lib/netstandard2.0/FParsec.dll",
+        "lib/netstandard2.0/FParsec.pdb",
+        "lib/netstandard2.0/FParsec.xml",
+        "lib/netstandard2.0/FParsecCS.dll",
+        "lib/netstandard2.0/FParsecCS.pdb",
+        "lib/netstandard2.0/FParsecCS.xml"
       ]
     },
     "FSharp.Core/4.7.0": {
@@ -2694,6 +2736,7 @@
     ".NETStandard,Version=v2.0": [
       "CSharpWizard >= 1.0.0",
       "DynamicData.ReactiveUI >= 6.11.0.2613",
+      "FParsec >= 1.1.1",
       "FSharpModel >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "ReactiveUI >= 10.5.31",
@@ -2754,6 +2797,10 @@
           "DynamicData.ReactiveUI": {
             "target": "Package",
             "version": "[6.11.0.2613, )"
+          },
+          "FParsec": {
+            "target": "Package",
+            "version": "[1.1.1, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",

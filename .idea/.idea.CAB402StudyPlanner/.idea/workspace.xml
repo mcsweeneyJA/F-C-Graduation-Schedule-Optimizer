@@ -4,48 +4,214 @@
     <list default="true" id="8b41600c-567c-48a0-b650-1f7e5d284353" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CAB402StudyPlanner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CAB402StudyPlanner/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CAB402StudyPlanner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CAB402StudyPlanner/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CAB402StudyPlanner/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CAB402StudyPlanner/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpModel/CSharpSchedulingWizard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/CSharpSchedulingWizard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpModel/CSharpWizard.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/CSharpWizard.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpModel/Parser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/Parser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/CSharpWizard.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/CSharpWizard.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/CSharpWizard.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/CSharpWizard.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/CSharpWizard.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/CSharpWizard.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/FSharpModel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/bin/Debug/netstandard2.0/FSharpModel.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpModel/obj/CSharpWizard.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/CSharpWizard.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpModel/obj/CSharpWizard.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/CSharpWizard.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/Debug/netstandard2.0/CSharpWizard.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpModel/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpModel/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpModel/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/BoundsOptimizer.fs" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/BoundsOptimizer.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSharpModel/FSharpModel.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/FSharpModel.fsproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/FSharpSchedulingWizard.fs" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/FSharpSchedulingWizard.fs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/Model.fs" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/Model.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FParsec.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FParsecCS.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/bin/Debug/netstandard2.0/FSharpModel.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.fsprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/Debug/netstandard2.0/FSharpModel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelUnitTests/UnitTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/UnitTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSharpModel/obj/FSharpModel.fsproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/FSharpModel.fsproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSharpModel/obj/FSharpModel.fsproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/FSharpModel.fsproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSharpModel/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSharpModel/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FSharpModel/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/ModelUnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/ModelUnitTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/CSharpWizard.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/CSharpWizard.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/CSharpWizard.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/CSharpWizard.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FParsec.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FParsec.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FParsecCS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FParsecCS.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FSharpModel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/FSharpModel.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.CommunicationUtilities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.CoreUtilities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.CrossPlatEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.PlatformAbstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.Utilities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ModelUnitTests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ModelUnitTests.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ModelUnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ModelUnitTests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ModelUnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ModelUnitTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/testhost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/testhost.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/Debug/netcoreapp3.1/ModelUnitTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/ModelUnitTests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/ModelUnitTests.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/ModelUnitTests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/ModelUnitTests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/ModelUnitTests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/ModelUnitTests.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/ModelUnitTests.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/ModelUnitTests.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelUnitTests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ModelUnitTests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUTCourseData/CourseData.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/CourseData.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUTCourseData/bin/Debug/netstandard2.0/CourseData.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/bin/Debug/netstandard2.0/CourseData.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/CourseData.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/CourseData.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/CourseData.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/CourseData.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/Debug/netstandard2.0/CourseData.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUTCourseData/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QUTCourseData/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModel/ViewModel.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/ViewModel.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/CSharpWizard.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/CSharpWizard.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/CSharpWizard.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/CSharpWizard.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/FParsec.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/FParsecCS.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/FSharpModel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/FSharpModel.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/ViewModel.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/bin/Debug/netstandard2.0/ViewModel.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.csproj.Fody.CopyLocal.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.csproj.Fody.CopyLocal.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/Debug/netstandard2.0/ViewModel.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModel/obj/ViewModel.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/ViewModel.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModel/obj/ViewModel.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/ViewModel.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModel/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModel/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModel/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WPFView/WPFView.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/WPFView.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/CSharpWizard.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/CSharpWizard.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/CSharpWizard.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/CSharpWizard.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/FParsec.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/FParsec.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/FParsecCS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/FParsecCS.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/FSharpModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/FSharpModel.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/FSharpModel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/FSharpModel.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/WPFView.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/WPFView.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/WPFView.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/bin/Debug/netcoreapp3.1/WPFView.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WPFView_MarkupCompile.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WizardProgress.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/Debug/netcoreapp3.1/WizardProgress.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WPFView/obj/WPFView.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/WPFView.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WPFView/obj/WPFView.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/WPFView.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WPFView/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WPFView/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WPFView/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CSharpModel/Parser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CSharpModel/CSharpSchedulingWizard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FSharpModel/Parser.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FSharpModel/FSharpSchedulingWizard.fs" root0="FORCE_HIGHLIGHTING" />
@@ -64,9 +230,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ModelUnitTests/UnitTests.cs" />
-        <option value="$PROJECT_DIR$/FSharpModel/Model.fs" />
+        <option value="$PROJECT_DIR$/CSharpModel/Parser.cs" />
+        <option value="$PROJECT_DIR$/CSharpModel/CSharpSchedulingWizard.cs" />
         <option value="$PROJECT_DIR$/FSharpModel/BoundsOptimizer.fs" />
         <option value="$PROJECT_DIR$/FSharpModel/FSharpSchedulingWizard.fs" />
+        <option value="$PROJECT_DIR$/FSharpModel/Model.fs" />
       </list>
     </option>
   </component>
@@ -131,7 +299,12 @@
       <workItem from="1586736012935" duration="20993000" />
       <workItem from="1587006185129" duration="17985000" />
       <workItem from="1587086463494" duration="20633000" />
-      <workItem from="1587160123282" duration="31471000" />
+      <workItem from="1587160123282" duration="37206000" />
+      <workItem from="1587356839546" duration="2458000" />
+      <workItem from="1587513483259" duration="6861000" />
+      <workItem from="1587544149310" duration="13953000" />
+      <workItem from="1587682606682" duration="4130000" />
+      <workItem from="1587945409224" duration="21546000" />
     </task>
     <servers />
   </component>
@@ -154,99 +327,120 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="361" key="GridCell.Tab.0.bottom" timestamp="1587197324493">
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1587964568087">
       <screen x="181" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="361" key="GridCell.Tab.0.bottom/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587197324493" />
-    <state width="1461" height="317" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586477575135" />
+    <state width="1877" height="361" key="GridCell.Tab.0.bottom/0.0.1504.963/181.-1080.1920.1040@0.0.1504.963" timestamp="1587696553334" />
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568087" />
+    <state width="1461" height="317" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1584931545725" />
-    <state width="1877" height="361" key="GridCell.Tab.0.center" timestamp="1587197324493">
+    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1587964568087">
       <screen x="181" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="361" key="GridCell.Tab.0.center/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587197324493" />
-    <state width="1461" height="317" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586477575134" />
+    <state width="1877" height="361" key="GridCell.Tab.0.center/0.0.1504.963/181.-1080.1920.1040@0.0.1504.963" timestamp="1587696553333" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568087" />
+    <state width="1461" height="317" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1584931545724" />
-    <state width="1877" height="361" key="GridCell.Tab.0.left" timestamp="1587197324493">
+    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1587964568087">
       <screen x="181" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="361" key="GridCell.Tab.0.left/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587197324493" />
-    <state width="1461" height="317" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586477575132" />
+    <state width="1877" height="361" key="GridCell.Tab.0.left/0.0.1504.963/181.-1080.1920.1040@0.0.1504.963" timestamp="1587696553333" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568087" />
+    <state width="1461" height="317" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1584931545724" />
-    <state width="1877" height="361" key="GridCell.Tab.0.right" timestamp="1587197324493">
+    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1587964568087">
       <screen x="181" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="361" key="GridCell.Tab.0.right/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587197324493" />
-    <state width="1461" height="317" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586477575135" />
+    <state width="1877" height="361" key="GridCell.Tab.0.right/0.0.1504.963/181.-1080.1920.1040@0.0.1504.963" timestamp="1587696553334" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568087" />
+    <state width="1461" height="317" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1584931545725" />
-    <state width="1461" height="317" key="GridCell.Tab.1.bottom" timestamp="1586477575136">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="317" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586477575136" />
-    <state width="1461" height="317" key="GridCell.Tab.1.center" timestamp="1586477575135">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="317" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1586477575135" />
-    <state width="1461" height="317" key="GridCell.Tab.1.left" timestamp="1586477575135">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="317" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1586477575135" />
-    <state width="1461" height="317" key="GridCell.Tab.1.right" timestamp="1586477575135">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="317" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1586477575135" />
-    <state width="1461" height="317" key="GridCell.Tab.2.bottom" timestamp="1586477575136">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="317" key="GridCell.Tab.2.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586477575136" />
-    <state width="1461" height="317" key="GridCell.Tab.2.center" timestamp="1586477575136">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="317" key="GridCell.Tab.2.center/0.0.1504.963@0.0.1504.963" timestamp="1586477575136" />
-    <state width="1461" height="317" key="GridCell.Tab.2.left" timestamp="1586477575136">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="317" key="GridCell.Tab.2.left/0.0.1504.963@0.0.1504.963" timestamp="1586477575136" />
-    <state width="1461" height="317" key="GridCell.Tab.2.right" timestamp="1586477575136">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="317" key="GridCell.Tab.2.right/0.0.1504.963@0.0.1504.963" timestamp="1586477575136" />
-    <state width="1461" height="317" key="GridCell.Tab.3.bottom" timestamp="1586477575137">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="317" key="GridCell.Tab.3.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586477575137" />
-    <state width="1461" height="317" key="GridCell.Tab.3.center" timestamp="1586477575137">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="317" key="GridCell.Tab.3.center/0.0.1504.963@0.0.1504.963" timestamp="1586477575137" />
-    <state width="1461" height="317" key="GridCell.Tab.3.left" timestamp="1586477575137">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="317" key="GridCell.Tab.3.left/0.0.1504.963@0.0.1504.963" timestamp="1586477575137" />
-    <state width="1461" height="317" key="GridCell.Tab.3.right" timestamp="1586477575137">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="317" key="GridCell.Tab.3.right/0.0.1504.963@0.0.1504.963" timestamp="1586477575137" />
-    <state width="1461" height="317" key="GridCell.Tab.4.bottom" timestamp="1586477575138">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="317" key="GridCell.Tab.4.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586477575138" />
-    <state width="1461" height="317" key="GridCell.Tab.4.center" timestamp="1586477575137">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="317" key="GridCell.Tab.4.center/0.0.1504.963@0.0.1504.963" timestamp="1586477575137" />
-    <state width="1461" height="317" key="GridCell.Tab.4.left" timestamp="1586477575137">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="317" key="GridCell.Tab.4.left/0.0.1504.963@0.0.1504.963" timestamp="1586477575137" />
-    <state width="1461" height="317" key="GridCell.Tab.4.right" timestamp="1586477575137">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="317" key="GridCell.Tab.4.right/0.0.1504.963@0.0.1504.963" timestamp="1586477575137" />
-    <state x="505" y="-946" key="SettingsEditor" timestamp="1586584968664">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1587964568087">
       <screen x="181" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="505" y="-946" key="SettingsEditor/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1586584968664" />
-    <state x="254" y="124" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1586215142600" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568087" />
+    <state width="1461" height="317" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1587964568087">
+      <screen x="181" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568087" />
+    <state width="1461" height="317" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1587964568087">
+      <screen x="181" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568087" />
+    <state width="1461" height="317" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1587964568087">
+      <screen x="181" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568087" />
+    <state width="1461" height="317" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
+    <state width="1877" height="347" key="GridCell.Tab.2.bottom" timestamp="1587964568088">
+      <screen x="181" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.2.bottom/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568088" />
+    <state width="1461" height="317" key="GridCell.Tab.2.bottom/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
+    <state width="1877" height="347" key="GridCell.Tab.2.center" timestamp="1587964568087">
+      <screen x="181" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.2.center/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568087" />
+    <state width="1461" height="317" key="GridCell.Tab.2.center/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
+    <state width="1877" height="347" key="GridCell.Tab.2.left" timestamp="1587964568087">
+      <screen x="181" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.2.left/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568087" />
+    <state width="1461" height="317" key="GridCell.Tab.2.left/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
+    <state width="1877" height="347" key="GridCell.Tab.2.right" timestamp="1587964568087">
+      <screen x="181" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.2.right/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568087" />
+    <state width="1461" height="317" key="GridCell.Tab.2.right/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
+    <state width="1877" height="347" key="GridCell.Tab.3.bottom" timestamp="1587964568088">
+      <screen x="181" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.3.bottom/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568088" />
+    <state width="1461" height="317" key="GridCell.Tab.3.bottom/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
+    <state width="1877" height="347" key="GridCell.Tab.3.center" timestamp="1587964568088">
+      <screen x="181" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.3.center/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568088" />
+    <state width="1461" height="317" key="GridCell.Tab.3.center/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
+    <state width="1877" height="347" key="GridCell.Tab.3.left" timestamp="1587964568088">
+      <screen x="181" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.3.left/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568088" />
+    <state width="1461" height="317" key="GridCell.Tab.3.left/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
+    <state width="1877" height="347" key="GridCell.Tab.3.right" timestamp="1587964568088">
+      <screen x="181" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.3.right/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568088" />
+    <state width="1461" height="317" key="GridCell.Tab.3.right/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
+    <state width="1877" height="347" key="GridCell.Tab.4.bottom" timestamp="1587964568088">
+      <screen x="181" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.4.bottom/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568088" />
+    <state width="1461" height="317" key="GridCell.Tab.4.bottom/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
+    <state width="1877" height="347" key="GridCell.Tab.4.center" timestamp="1587964568088">
+      <screen x="181" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.4.center/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568088" />
+    <state width="1461" height="317" key="GridCell.Tab.4.center/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
+    <state width="1877" height="347" key="GridCell.Tab.4.left" timestamp="1587964568088">
+      <screen x="181" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.4.left/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568088" />
+    <state width="1461" height="317" key="GridCell.Tab.4.left/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
+    <state width="1877" height="347" key="GridCell.Tab.4.right" timestamp="1587964568088">
+      <screen x="181" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.4.right/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964568088" />
+    <state width="1461" height="317" key="GridCell.Tab.4.right/0.0.1504.963@0.0.1504.963" timestamp="1587949019052" />
+    <state x="254" y="124" key="SettingsEditor" timestamp="1587686776299">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="254" y="124" key="SettingsEditor/0.0.1504.963/181.-1080.1920.1040@0.0.1504.963" timestamp="1587600715648" />
+    <state x="505" y="-946" key="SettingsEditor/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587682695547" />
+    <state x="254" y="124" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1587686776299" />
     <state x="345" y="215" key="Vcs.Push.Dialog.v2" timestamp="1584083444491">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -260,9 +454,10 @@
     </state>
     <state x="703" y="-840" key="run.anything.popup/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1586738131050" />
     <state x="409" y="222" key="run.anything.popup/0.0.1504.963@0.0.1504.963" timestamp="1586222736969" />
-    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1586244123256">
-      <screen x="0" y="0" width="1504" height="963" />
+    <state x="711" y="-858" width="858" height="733" key="search.everywhere.popup" timestamp="1587964339826">
+      <screen x="181" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1586244123256" />
+    <state x="711" y="-858" width="858" height="733" key="search.everywhere.popup/0.0.1504.963/181.-1080.1920.1040@181.-1080.1920.1040" timestamp="1587964339826" />
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1587686875206" />
   </component>
 </project>
