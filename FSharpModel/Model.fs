@@ -117,11 +117,11 @@ let isOffered (unitCode:UnitCode) (semester:Semester) : bool =
 // Requires that the unit is offered in that semester and that prerequistes are meet by units studied before that semester 
 let isLegalIn (unitCode:UnitCode) (semester:Semester) (plannedUnits:StudyPlan) : bool =
     
-    let before sem = 
-        sem < semester 
+    let before sem semester = 
+        sem > semester 
     // check that unit is offered and than its prereqs are satisfied
     let lookedUp = lookup unitCode
-    isOffered unitCode semester && satisfied lookedUp.prereq plannedUnits (before)
+    isOffered unitCode semester && satisfied lookedUp.prereq plannedUnits (before semester)
     
 
 // True if and only if the specified unit can be added to the study plan in that semester.

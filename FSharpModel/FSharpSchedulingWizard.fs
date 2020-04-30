@@ -22,9 +22,9 @@ let currentSemester : Semester =
 // Otherwise we try scheduling that unit in each of the possible semesters in which it can be legally scheduled. 
 // If any of those schedules can be extended into a complete plan then we succeed, otherwise we fail.
 let rec private scheduleRemaining (remainingUnits:BoundPlan) (plannedUnits:StudyPlan): StudyPlan option =
-    if remainingUnits.IsEmpty then
-        Some plannedUnits
-    else
+    if not remainingUnits.IsEmpty
+    then
+  
         remainingUnits
         |> List.tryFind (fun pland ->
                                 pland.possibleSemesters
@@ -44,15 +44,17 @@ let rec private scheduleRemaining (remainingUnits:BoundPlan) (plannedUnits:Study
                                                             let newBound =
                                                                 //reduce boundplan by removing unit thats scheduled
                                                                 remainingUnits
-                                                                |> List.except testBound
+                                                                |> List.filter (fun queryUnit -> queryUnit <> enrollableUnit) 
                                                                 
                                                             //try and extend schedule based on these new sequences
                                                             scheduleRemaining newBound newPlan)
                                                         |> (fun extendedPlans ->
-                                                                extendedPlans        
+                                                                extendedPlans
+                                                                
                                                                 |> Seq.tryFind (Option.isSome)
                                                                 |> Option.flatten))
-                                                              
+            
+    else   Some plannedUnits                                                     
                                 
                                           
       
@@ -61,24 +63,24 @@ let rec private scheduleRemaining (remainingUnits:BoundPlan) (plannedUnits:Study
 // in semester 1 or semester 2, returns the earliest possible semester by which all units in
 // the study plan could be completed, assuming at most 4 units per semester.
 let bestAchievable (firstSemester:Semester) (plan:StudyPlan) : Semester =
-     // TODO: Fixme (difficulty: 5/10)
-     //get num of units in a plan
-     let numofUnits  = plan |> Seq.length
-     //get num of semesters by dividing num of units by 4, and get ceiling number if its a decimal
-     let numofSem = int(ceil(float(numofUnits / 4)))
-     //remove summer from semester matching
-     let nextSemWithNoSummer (semester:Semester) =
-         // TODO: Fixme  (difficulty: 2/10)
-         match semester.offering  with
-         | Semester1 -> {year = semester.year; offering= Semester2}
-         | _ -> {year = (+) semester.year 1; offering = Semester1}
-     //helper function to recursively getting next Sem based on number of semesters
-     let rec determineSem num sem =
-          if num <= 1 then sem
-          else
-            determineSem (num-1) (nextSemWithNoSummer sem)
-     //call the helper function with number of semesters and current semester
-     determineSem numofSem firstSemester
+    let additionalSems =
+        plan
+        |> Seq.length
+        |> (fun num -> num - 1)
+        |> (fun num -> ceil (float num / 4.0))
+        |> (fun num -> int num)
+    
+    let additionalYears =
+        additionalSems
+        |> (fun num -> ceil(float num / 2.0))
+        |> (fun num -> int num)
+        |> (fun num -> num - 1)
+    
+    match firstSemester.offering with
+        | Semester1 -> {firstSemester with year = firstSemester.year + additionalYears; offering = if (additionalSems % 2 =0) then Semester2 else Semester1}
+        | Semester2 -> {firstSemester with year = firstSemester.year + additionalYears; offering = if (additionalSems % 2 =0) then Semester1 else Semester2}
+        | Summer -> {firstSemester with year = firstSemester.year + 1; offering = Semester1  }
+            
 
 
 // Returns the last semester in which units will be studied in the study plan
@@ -107,23 +109,24 @@ let TryToImproveSchedule (plan:StudyPlan) : seq<StudyPlan> =
     let last = lastSemester plan
     let bestPossible = bestAchievable first plan
     let rec TryToCompleteBy (targetGraduation:Semester) =
-        if targetGraduation < (bestPossible)
+        if targetGraduation < bestPossible && isLegalPlan plan
         then
             Seq.empty
         else
         
             let tightBound = boundUnitsInPlan plan first targetGraduation
             let isFeasible = tightBound |> allBoundsFeasible
-
+            
             if isFeasible
             
             then
                 let scheduled = scheduleRemaining tightBound Seq.empty
                 
                 
+                
                 match scheduled with
-                        | Some (studyPlan) -> seq{yield studyPlan;  yield! TryToCompleteBy(previousSemester (lastSemester studyPlan)); }
+                        | Some (studyPlan) -> seq{yield studyPlan;  yield! TryToCompleteBy(backSem (lastSemester studyPlan)); }
                         | None -> Seq.empty
-                else Seq.empty
+            else Seq.empty
 
     TryToCompleteBy (previousSemester last)
